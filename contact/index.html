@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link href="../style.css" rel="stylesheet" />
 </head>
 <body>
     <h1>Contact</h1>
     <nav class="menu">
-        <h2>Navigation</h2>
-        <a target="_blank"href="../index.html">Home</a>
-        <a target="_blank"href="../projects/index.html">Projects</a>
-        <a target="_blank"href="resume.html">Resume</a>
-        <a target="_blank"href="https://github.com/Szheng2324">GitHub</a>
+        <a class = "nav" target="_blank"href="../index.html">Home</a>
+        <a class = "current" target="_blank"href="../contact/index.html">Contact</a>
+        <a class = "nav" target="_blank"href="../projects/index.html">Projects</a>
+        <a class = "nav" target="_blank"href="resume.html">Resume</a>
+        <a class = "nav" target="_blank"href="https://github.com/Szheng2324">GitHub</a>
 
     </nav>
    
-    <form action="mailto:xiaolaiz@mit.edu" method="POST" enctype="Text/plain">
-        <label for="email">Here is the email</label>
-        <input name ="email" type="email"/>
-        <label for="subject">Here is the subject</label>
-        <input name="subject"/>
-        <label for="body">Here is the body</label>
-        <textarea name="body">
+    <form  action="mailto:xiaolaiz@mit.edu" method="POST" enctype="Text/plain">
+        <label class = "formControls"for="email">Here is the email</label>
+        <input class = "formControls"name ="email" type="email"/>
+        <label class = "formControls"for="subject">Here is the subject</label>
+        <input class = "formControls" name="subject"/>
+        <label class = "formControls"for="body">Here is the body</label>
+        <textarea class = "formControls"name="body">
          please enter  
         </textarea>
         <button  type="submit">Submit</button>
