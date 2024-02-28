@@ -6,11 +6,21 @@ body {
     max-width: 100ch;
     margin-inline: max(1em, (100% - 100ch) / 2);
    }
+:root{
+  --color-accent:yellow;
+}
 
 .menu{
+
+ 
+
   display: flex;
+  text-decoration: none;
+  text-align: center;
+  color: inherit;
   border-bottom-width: 1px;
   border-bottom-style: solid;
+  
   
   
   
@@ -70,4 +80,11 @@ h2{
   color:gray;
   font-style:italic;
   font-family: Arial, Helvetica, sans-serif;
+}
+.color-scheme{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+  font-family: inherit;
 }
